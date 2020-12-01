@@ -1,0 +1,66 @@
+Report:-
+
+Enquiry Report  ---->  (Date Range, Coursename,status,enquirysource)
+
+enquirystatus
+enquirysource
+
+
+Registration Report   (Date,Coursename)
+
+Enqid (as a foreign key)
+
+
+Fees Report (Name, Date,Coursename)
+
+
+FacultyReport(Facultyname, Date)
+
+FrontDeskReport(Date,Name)
+
+
+
+
+FrontDeskTableChanges ( Joiningdate, Salary, DOB, EXP, HigherEducation(DROPDOWNLIST), Gender(Radio Button),Emailid)
+
+
+FactultyTableChanges( Mobileno, Salary, HigherEducation(DropDownLIst), EXP)
+
+
+RegistrationTableChanges(CourseType(DropDownLIST), Duration)
+
+
+FeesTableChanges(Regid,FeesInstallment)
+
+
+FrontDeskReport:-
+
+(ReportID, Name, ReportDate, TotalCalling, PositiveCall, TotalVisitingByCall, TotalCenterVisit,TotalReg,Remark)
+
+
+FacultyReport(ReportID, Name, Repordate, TimeSlot1, WorkDetails, TimeSlot2, WorkDetail, TimeSlot3, WorkDetails, TimeSlot4, WorkDetails, Timeslot5, WorkDetails, TimeSlot6, WorkDetails, TimeSlot7 WorlDetails, TimeSlot8 WorkDetails, TimeSlot9 WorkDetails, ExtraTime WorkDetails, Remark)
+
+
+UploadTask
+
+
+StudentPanel (Add Student By FrontDesk (Enroleno, CourseName,ENQID, REGID, Password, Submit Job POST by Admin)
+
+View Assignment
+
+Submit Assignment Solution
+
+View Job POST
+
+
+
+
+
+
+
+
+
+
+
+
+
